@@ -1,4 +1,5 @@
 export default {
+	const keycloak = "hht"
 	async navigateToKeycloak () {
 		//	use async-await or promises
 		//	await storeValue('varName', 'hello world')
