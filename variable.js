@@ -13,5 +13,6 @@ if (editMode === false ) {
   // Add your custom logic for non-edit mode
 	}
 }
+	func(){}
 
 }
