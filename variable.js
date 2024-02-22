@@ -13,6 +13,18 @@ if (editMode === false ) {
   // Add your custom logic for non-edit mode
 	}
 }
-	func(){}
+	async func(){
+		const urlParams = appsmith.mode ;
+const editMode = 's'
+
+if (editMode === false ) {
+  return ('App is in edit mode');
+  // Add your custom logic for edit mode
+} else {
+  return urlParams
+  // Add your custom logic for non-edit mode
+	}
+		
+	}
 
 }
